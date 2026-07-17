@@ -21,7 +21,7 @@
 
 <br/>
 
-## 👋 About Me
+## ABOUT ME
 
 I build **production-grade applications** across mobile, web, and backend with a relentless focus on **scalability**, **clean architecture**, and **exceptional user experience**.
 
@@ -39,7 +39,7 @@ Open to: Product-focused engineering collaboration
 
 ---
 
-## 🔥 Commit Statistics
+## COMMIT STATISTICS
 
 <p align="left">
   <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&color=38bdf8&label=Total%20Commits&query=%24.total&url=https%3A%2F%2Fgithub-contributions-api.jogruber.de%2Fv4%2Fvenusndk%3Fy%3Dtotal&suffix=+commits" alt="Total commits badge" />
@@ -57,7 +57,7 @@ Open to: Product-focused engineering collaboration
 
 ---
 
-## 📊 Engineering Dashboard
+## ENGINEERING DASHBOARD
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=venusndk&layout=compact&theme=transparent&hide_border=true&title_color=38bdf8&text_color=cbd5e1&langs_count=8" alt="Top languages" width="60%" />
@@ -73,7 +73,7 @@ Open to: Product-focused engineering collaboration
 
 ---
 
-## 🧰 Tech Stack
+## TECH STUCK DEALING WITH
 
 <table align="center">
 <tr>
@@ -81,30 +81,30 @@ Open to: Product-focused engineering collaboration
 <th align="left">Stack</th>
 </tr>
 <tr>
-<td><strong>📱 Mobile</strong></td>
+<td><strong>Mobile</strong></td>
 <td><img src="https://skillicons.dev/icons?i=flutter,dart" /></td>
 </tr>
 <tr>
-<td><strong>💻 Frontend</strong></td>
+<td><strong>Frontend</strong></td>
 <td><img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css,vite,js,ts" /></td>
 </tr>
 <tr>
-<td><strong>⚙️ Backend & APIs</strong></td>
+<td><strong>Backend & APIs</strong></td>
 <td><img src="https://skillicons.dev/icons?i=nodejs,express,firebase" />&nbsp;
 <img src="https://img.shields.io/badge/REST%20APIs-0ea5e9?style=flat-square&logo=fastapi&logoColor=white" />&nbsp;
 <img src="https://img.shields.io/badge/Socket.IO-111827?style=flat-square&logo=socketdotio&logoColor=white" />&nbsp;
 <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" /></td>
 </tr>
 <tr>
-<td><strong>🗄️ Databases</strong></td>
+<td><strong>Databases</strong></td>
 <td><img src="https://skillicons.dev/icons?i=postgresql,sqlite,mongodb" /></td>
 </tr>
 <tr>
-<td><strong>☁️ Cloud & DevOps</strong></td>
+<td><strong>Cloud & DevOps</strong></td>
 <td><img src="https://skillicons.dev/icons?i=aws,gcp,docker,git,github,linux,vscode,postman" /></td>
 </tr>
 <tr>
-<td><strong>🤖 AI / ML</strong></td>
+<td><strong>AI / ML</strong></td>
 <td><img src="https://img.shields.io/badge/AI%20Integration-1d4ed8?style=flat-square&logo=openai&logoColor=white" />&nbsp;
 <img src="https://img.shields.io/badge/Machine%20Learning-0ea5e9?style=flat-square&logo=tensorflow&logoColor=white" /></td>
 </tr>
@@ -112,14 +112,14 @@ Open to: Product-focused engineering collaboration
 
 ---
 
-## 🌟 Featured Projects
+## FEATURED PROJECTS
 
 <table align="center" width="100%">
 
 <tr>
 <td width="50%" valign="top">
 
-### 🗨️ CampChat
+### CampChat
 Real-time messaging platform built for speed and reliability.
 
 **Highlights:** live messaging · responsive UI · modular backend
@@ -130,7 +130,7 @@ Real-time messaging platform built for speed and reliability.
 </td>
 <td width="50%" valign="top">
 
-### 🚗 Driver Garage Linker
+### Driver Garage Linker
 Digital workflow platform connecting driver and garage operations.
 
 **Highlights:** role-aware processes · workflow automation
@@ -144,7 +144,7 @@ Digital workflow platform connecting driver and garage operations.
 <tr>
 <td width="50%" valign="top">
 
-### 💻 PCMS
+### PCMS
 Personal Computer Maintenance System full lifecycle & diagnostics platform.
 
 **Highlights:** service records · diagnostics tracking · structured reports
@@ -155,7 +155,7 @@ Personal Computer Maintenance System full lifecycle & diagnostics platform.
 </td>
 <td width="50%" valign="top">
 
-### 🌐 Portfolio Website
+### Portfolio Website
 Modern portfolio focused on clarity, speed, and visual quality.
 
 **Highlights:** responsive layout · polished UI · recruiter-friendly flow
@@ -170,7 +170,7 @@ Modern portfolio focused on clarity, speed, and visual quality.
 
 ---
 
-## 🏗️ Engineering Philosophy
+## ENGINEERING PHYLOSOPHY
 
 <table align="center">
 <tr>
@@ -185,7 +185,7 @@ Modern portfolio focused on clarity, speed, and visual quality.
 
 ---
 
-## 🏅 Achievement Badges
+## ACHIEVEMENTS BADGES
 
 <p align="center">
   <img src="https://img.shields.io/badge/React-Frontend%20Engineering-61DAFB?style=for-the-badge&logo=react&logoColor=111827" alt="React badge" />
@@ -197,7 +197,7 @@ Modern portfolio focused on clarity, speed, and visual quality.
 
 ---
 
-## 🤝 Let's Connect
+## LET'S CONNECT
 
 <p align="center">
   <a href="https://www.linkedin.com/in/ndikumana-venuste-985b4928a/" aria-label="LinkedIn">
@@ -214,6 +214,6 @@ Modern portfolio focused on clarity, speed, and visual quality.
   </a>
 </p>
 
-<p align="center"><i>💡 "Great software is built one clean commit at a time."</i></p>
+<p align="center"><i> "Great software is built one clean commit at a time."</i></p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=130&section=footer&color=0:38bdf8,30:1d4ed8,65:1e293b,100:020617" alt="Animated footer wave" width="100%" />
