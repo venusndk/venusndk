@@ -1,0 +1,130 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"  stop-color="#020617"/>
+      <stop offset="25%" stop-color="#0f172a"/>
+      <stop offset="55%" stop-color="#1e293b"/>
+      <stop offset="80%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+
+    <radialGradient id="glow" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+
+    <clipPath id="rounded">
+      <rect x="0" y="0" width="1200" height="280" rx="18" ry="18"/>
+    </clipPath>
+
+    <filter id="softBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="0.6"/>
+    </filter>
+  </defs>
+
+  <g clip-path="url(#rounded)">
+    <!-- Background -->
+    <rect x="0" y="0" width="1200" height="280" fill="url(#bgGrad)"/>
+    <rect x="0" y="0" width="1200" height="280" fill="url(#glow)"/>
+
+    <!-- Rising bubbles -->
+    <g filter="url(#softBlur)">
+      <circle cx="60"   cy="300" r="6"  fill="#38bdf8" opacity="0">
+        <animate attributeName="cy" values="300;-20" dur="11s" begin="0s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.35;0.35;0" keyTimes="0;0.15;0.8;1" dur="11s" begin="0s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="140"  cy="300" r="10" fill="#93c5fd" opacity="0">
+        <animate attributeName="cy" values="300;-20" dur="15s" begin="2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.25;0.25;0" keyTimes="0;0.15;0.8;1" dur="15s" begin="2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="220"  cy="300" r="4"  fill="#ffffff" opacity="0">
+        <animate attributeName="cy" values="300;-20" dur="9s" begin="4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.3;0.3;0" keyTimes="0;0.15;0.8;1" dur="9s" begin="4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="300"  cy="300" r="8"  fill="#38bdf8" opacity="0">
+        <animate attributeName="cy" values="300;-20" dur="13s" begin="1s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.3;0.3;0" keyTimes="0;0.15;0.8;1" dur="13s" begin="1s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="380"  cy="300" r="5"  fill="#93c5fd" opacity="0">
+        <animate attributeName="cy" values="300;-20" dur="10s" begin="5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.28;0.28;0" keyTimes="0;0.15;0.8;1" dur="10s" begin="5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="460"  cy="300" r="12" fill="#1d4ed8" opacity="0">
+        <animate attributeName="cy" values="300;-20" dur="17s" begin="3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.22;0.22;0" keyTimes="0;0.15;0.8;1" dur="17s" begin="3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="540"  cy="300" r="7"  fill="#ffffff" opacity="0">
+        <animate attributeName="cy" values="300;-20" dur="12s" begin="6s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.3;0.3;0" keyTimes="0;0.15;0.8;1" dur="12s" begin="6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="620"  cy="300" r="9"  fill="#38bdf8" opacity="0">
+        <animate attributeName="cy" values="300;-20" dur="14s" begin="0.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.27;0.27;0" keyTimes="0;0.15;0.8;1" dur="14s" begin="0.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="700"  cy="300" r="3"  fill="#93c5fd" opacity="0">
+        <animate attributeName="cy" values="300;-20" dur="8s" begin="7s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.35;0.35;0" keyTimes="0;0.15;0.8;1" dur="8s" begin="7s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="780"  cy="300" r="11" fill="#1d4ed8" opacity="0">
+        <animate attributeName="cy" values="300;-20" dur="16s" begin="2.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.2;0.2;0" keyTimes="0;0.15;0.8;1" dur="16s" begin="2.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="860"  cy="300" r="6"  fill="#ffffff" opacity="0">
+        <animate attributeName="cy" values="300;-20" dur="10.5s" begin="4.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.3;0.3;0" keyTimes="0;0.15;0.8;1" dur="10.5s" begin="4.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="940"  cy="300" r="8"  fill="#38bdf8" opacity="0">
+        <animate attributeName="cy" values="300;-20" dur="13.5s" begin="1.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.28;0.28;0" keyTimes="0;0.15;0.8;1" dur="13.5s" begin="1.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1020" cy="300" r="5"  fill="#93c5fd" opacity="0">
+        <animate attributeName="cy" values="300;-20" dur="9.5s" begin="6.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.3;0.3;0" keyTimes="0;0.15;0.8;1" dur="9.5s" begin="6.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1100" cy="300" r="10" fill="#1d4ed8" opacity="0">
+        <animate attributeName="cy" values="300;-20" dur="15.5s" begin="3.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.22;0.22;0" keyTimes="0;0.15;0.8;1" dur="15.5s" begin="3.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1160" cy="300" r="4"  fill="#ffffff" opacity="0">
+        <animate attributeName="cy" values="300;-20" dur="8.5s" begin="8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.32;0.32;0" keyTimes="0;0.15;0.8;1" dur="8.5s" begin="8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="100"  cy="300" r="7"  fill="#38bdf8" opacity="0">
+        <animate attributeName="cy" values="300;-20" dur="12.5s" begin="9s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.26;0.26;0" keyTimes="0;0.15;0.8;1" dur="12.5s" begin="9s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="500"  cy="300" r="9"  fill="#93c5fd" opacity="0">
+        <animate attributeName="cy" values="300;-20" dur="14.5s" begin="0s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.25;0.25;0" keyTimes="0;0.15;0.8;1" dur="14.5s" begin="0s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="900"  cy="300" r="6"  fill="#ffffff" opacity="0">
+        <animate attributeName="cy" values="300;-20" dur="11.5s" begin="5.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.3;0.3;0" keyTimes="0;0.15;0.8;1" dur="11.5s" begin="5.5s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- Name -->
+    <text x="600" y="118" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff" letter-spacing="2">
+      VENUSTE NDIKUMANA
+    </text>
+
+    <!-- Role line -->
+    <text x="600" y="156" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="500" fill="#93c5fd" letter-spacing="1">
+      Flutter Developer • React Developer • Backend Developer • AI Integration Enthusiast
+    </text>
+
+    <!-- Divider -->
+    <rect x="500" y="178" width="200" height="2" rx="1" fill="#38bdf8" opacity="0.6"/>
+
+    <!-- Scrolling tagline, clipped so it never overflows the card -->
+    <g clip-path="url(#rounded)">
+      <text y="222" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#38bdf8">
+        <animate attributeName="x" values="1200;-1050" dur="16s" begin="0s" repeatCount="indefinite"/>
+        Building scalable mobile &amp; web products &#160;&#160;•&#160;&#160; Flutter · React · Node.js · Firebase &#160;&#160;•&#160;&#160; Clean Architecture · REST APIs · Real-Time Systems
+      </text>
+    </g>
+  </g>
+
+  <!-- Outer border -->
+  <rect x="0.75" y="0.75" width="1198.5" height="278.5" rx="17.5" ry="17.5" fill="none" stroke="#38bdf8" stroke-opacity="0.25" stroke-width="1.5"/>
+</svg>
