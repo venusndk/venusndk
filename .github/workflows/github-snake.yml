@@ -43,10 +43,10 @@ jobs:
           GIT_COMMITTER_EMAIL: ndikumanavenuste6@gmail.com
         run: |
           set -e
-          if git diff --quiet -- assets/github-snake.svg assets/github-snake-dark.svg; then
+          git add assets/github-snake.svg assets/github-snake-dark.svg
+          if git diff --cached --quiet; then
             echo "No contribution-graph changes — skipping commit."
             exit 0
           fi
-          git add assets/github-snake.svg assets/github-snake-dark.svg
           git commit -m "chore: update contribution snake [skip ci]"
           git push
