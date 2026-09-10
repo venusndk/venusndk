@@ -133,8 +133,7 @@ I build **production-grade applications** across mobile, web, and backend with a
 
 <img src="https://api.iconify.design/tabler/messages.svg?color=%2338bdf8" width="32" height="32" alt="" />
 
-I'm always glad to talk through an idea, a product, or a hard engineering problem.
-If something above sparked a conversation, reach out through any of the links.
+I'm always glad to talk through an idea, a product, or a hard engineering problem. Contact me for support.
 
 <p><img src="https://api.iconify.design/tabler/quote.svg?color=%2338bdf8" width="18" height="18" alt="" /> <i>"Great software is built one clean commit at a time."</i></p>
 
