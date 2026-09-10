@@ -105,12 +105,12 @@
 
     <!-- Name -->
     <text x="600" y="118" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff" letter-spacing="2">
-      VENUSTE NDIKUMANA
+      I'M Venuste NDIKUMANA
     </text>
 
     <!-- Role line -->
     <text x="600" y="156" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="500" fill="#93c5fd" letter-spacing="1">
-      Flutter Developer • React Developer • Backend Developer • AI Integration Enthusiast
+      Flutter Developer • React Developer • Backend Developer • Pursuing AI Integration 
     </text>
 
     <!-- Divider -->
