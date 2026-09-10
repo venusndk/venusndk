@@ -6,8 +6,8 @@
   
     <rect x="24" y="50" width="432" height="1" fill="#1e293b"/>
     
-      <text x="24" y="68" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#cbd5e1">Python</text>
-      <text x="456" y="68" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#64748b">90%</text>
+      <text x="24" y="68" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" fill="#cbd5e1">Python</text>
+      <text x="456" y="68" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" fill="#64748b">90%</text>
       <rect x="24" y="74" width="432" height="8" rx="4" fill="#1e293b"/>
       <rect x="24" y="74" width="201.95415792409236" height="8" rx="4" fill="#3572A5"/>
     
