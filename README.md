@@ -22,7 +22,7 @@
 
 <br/>
 
-## About Me
+## ABOUT ME
 
 I build **production-grade applications** across mobile, web, and backend with a relentless focus on **scalability**, **clean architecture**, and **exceptional user experience**.
 
@@ -40,7 +40,7 @@ Open to: Product-focused engineering collaboration
 
 ---
 
-## Commit Statistics
+## COMMITS STATISTICS
 
 Live, real contribution data — no fabricated or hardcoded numbers. Refreshed automatically every day by [`github-dashboard.yml`](.github/workflows/github-dashboard.yml).
 
@@ -70,7 +70,7 @@ An animated snake that eats its way across my **real** GitHub contribution graph
 
 ---
 
-## Engineering Dashboard
+## ENGINEERING DASHBOARDS
 
 Every card below is rendered as a **static SVG committed to `assets/`** by [`github-dashboard.yml`](.github/workflows/github-dashboard.yml), which queries the GitHub GraphQL API directly. This avoids the shared public stats services (github-readme-stats, github-readme-activity-graph, github-profile-trophy) that are frequently rate-limited or suspended — the root cause of the broken images this README replaces.
 
@@ -95,7 +95,7 @@ Every card below is rendered as a **static SVG committed to `assets/`** by [`git
 
 ---
 
-## Tech Stack
+## TECH STACK
 
 <table align="center">
 <tr>
@@ -134,7 +134,7 @@ Every card below is rendered as a **static SVG committed to `assets/`** by [`git
 
 ---
 
-## Let's Connect
+## LET'S CONNECT
 
 <p align="center">
   <a href="https://www.linkedin.com/in/venus-dev-985b4928a/" aria-label="LinkedIn">
