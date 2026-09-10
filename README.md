@@ -42,8 +42,6 @@ Open to: Product-focused engineering collaboration
 
 ## COMMITS STATISTICS
 
-Live, real contribution data — no fabricated or hardcoded numbers. Refreshed automatically every day by [`github-dashboard.yml`](.github/workflows/github-dashboard.yml).
-
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=venusndk&theme=transparent&hide_border=true&ring=38bdf8&fire=0ea5e9&currStreakLabel=38bdf8&background=00000000" alt="GitHub contribution streak: total contributions, current streak, and longest streak" width="100%" />
 </p>
@@ -53,11 +51,6 @@ Live, real contribution data — no fabricated or hardcoded numbers. Refreshed a
 </p>
 
 ---
-
-## Contribution Snake — January → December
-
-An animated snake that eats its way across my **real** GitHub contribution graph for the year, regenerated daily from live data by [`github-snake.yml`](.github/workflows/github-snake.yml) using [Platane/snk](https://github.com/Platane/snk) — no external rendering service, just a static SVG committed to this repo.
-
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/github-snake-dark.svg" />
@@ -71,8 +64,6 @@ An animated snake that eats its way across my **real** GitHub contribution graph
 ---
 
 ## ENGINEERING DASHBOARDS
-
-Every card below is rendered as a **static SVG committed to `assets/`** by [`github-dashboard.yml`](.github/workflows/github-dashboard.yml), which queries the GitHub GraphQL API directly. This avoids the shared public stats services (github-readme-stats, github-readme-activity-graph, github-profile-trophy) that are frequently rate-limited or suspended — the root cause of the broken images this README replaces.
 
 <table align="center">
 <tr>
@@ -155,7 +146,7 @@ Every card below is rendered as a **static SVG committed to `assets/`** by [`git
 
 <div align="center">
 
-Thanks for stopping by — I'm always glad to talk through an idea, a product, or a hard engineering problem.
+I'm always glad to talk through an idea, a product, or a hard engineering problem.
 If something above sparked a conversation, reach out through any of the links.
 
 <p><i>"Great software is built one clean commit at a time."</i></p>
