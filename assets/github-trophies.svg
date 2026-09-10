@@ -1,0 +1,49 @@
+<svg width="504" height="266" viewBox="0 0 504 266" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub achievement trophies for venusndk, tiered from real contribution counts"><rect x="0.75" y="0.75" width="502.5" height="264.5" rx="14" ry="14" fill="#0c0f17" stroke="#1e293b" stroke-width="1.5"/>
+      <g>
+        <rect x="16" y="16" width="148" height="110" rx="10" fill="#1e293b" opacity="0.45" stroke="#94a3b8" stroke-width="1.25"/>
+        <text x="90" y="48" text-anchor="middle" font-size="22">📦</text>
+        <text x="90" y="72" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#f8fafc">7</text>
+        <text x="90" y="90" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#cbd5e1">Repositories</text>
+        <text x="90" y="108" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#94a3b8" letter-spacing="1">SILVER</text>
+      </g>
+    
+      <g>
+        <rect x="178" y="16" width="148" height="110" rx="10" fill="#1e293b" opacity="0.45" stroke="#eab308" stroke-width="1.25"/>
+        <text x="252" y="48" text-anchor="middle" font-size="22">💾</text>
+        <text x="252" y="72" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#f8fafc">255</text>
+        <text x="252" y="90" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#cbd5e1">Commits</text>
+        <text x="252" y="108" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#eab308" letter-spacing="1">GOLD</text>
+      </g>
+    
+      <g>
+        <rect x="340" y="16" width="148" height="110" rx="10" fill="#1e293b" opacity="0.45" stroke="#38bdf8" stroke-width="1.25"/>
+        <text x="414" y="48" text-anchor="middle" font-size="22">🔀</text>
+        <text x="414" y="72" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#f8fafc">89</text>
+        <text x="414" y="90" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#cbd5e1">Pull Requests</text>
+        <text x="414" y="108" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#38bdf8" letter-spacing="1">PLATINUM</text>
+      </g>
+    
+      <g>
+        <rect x="16" y="140" width="148" height="110" rx="10" fill="#1e293b" opacity="0.45" stroke="#b45309" stroke-width="1.25"/>
+        <text x="90" y="172" text-anchor="middle" font-size="22">👥</text>
+        <text x="90" y="196" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#f8fafc">3</text>
+        <text x="90" y="214" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#cbd5e1">Followers</text>
+        <text x="90" y="232" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#b45309" letter-spacing="1">BRONZE</text>
+      </g>
+    
+      <g>
+        <rect x="178" y="140" width="148" height="110" rx="10" fill="#1e293b" opacity="0.45" stroke="#64748b" stroke-width="1.25"/>
+        <text x="252" y="172" text-anchor="middle" font-size="22">⭐</text>
+        <text x="252" y="196" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#f8fafc">0</text>
+        <text x="252" y="214" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#cbd5e1">Stars</text>
+        <text x="252" y="232" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#64748b" letter-spacing="1">—</text>
+      </g>
+    
+      <g>
+        <rect x="340" y="140" width="148" height="110" rx="10" fill="#1e293b" opacity="0.45" stroke="#eab308" stroke-width="1.25"/>
+        <text x="414" y="172" text-anchor="middle" font-size="22">🔥</text>
+        <text x="414" y="196" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#f8fafc">22</text>
+        <text x="414" y="214" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#cbd5e1">Longest Streak</text>
+        <text x="414" y="232" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#eab308" letter-spacing="1">GOLD</text>
+      </g>
+    </svg>

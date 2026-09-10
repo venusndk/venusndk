@@ -1,0 +1,30 @@
+<svg width="480" height="250" viewBox="0 0 480 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub statistics for venusndk">
+    
+    <rect x="0.75" y="0.75" width="478.5" height="248.5" rx="14" ry="14"
+      fill="#0c0f17" stroke="#1e293b" stroke-width="1.5"/>
+    <text x="24" y="38" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#f8fafc">GitHub Statistics</text>
+  
+    <rect x="24" y="50" width="432" height="1" fill="#1e293b"/>
+    
+      <text x="24" y="74" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#cbd5e1">Public Repositories</text>
+      <text x="456" y="74" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#38bdf8">7</text>
+    
+      <text x="24" y="98" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#cbd5e1">Total Stars</text>
+      <text x="456" y="98" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#38bdf8">0</text>
+    
+      <text x="24" y="122" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#cbd5e1">Followers</text>
+      <text x="456" y="122" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#38bdf8">3</text>
+    
+      <text x="24" y="146" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#cbd5e1">Commits (this year)</text>
+      <text x="456" y="146" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#38bdf8">255</text>
+    
+      <text x="24" y="170" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#cbd5e1">Pull Requests Opened</text>
+      <text x="456" y="170" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#38bdf8">89</text>
+    
+      <text x="24" y="194" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#cbd5e1">Pull Requests Merged</text>
+      <text x="456" y="194" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#38bdf8">75</text>
+    
+      <text x="24" y="218" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#cbd5e1">Contributions (this year)</text>
+      <text x="456" y="218" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#38bdf8">1216</text>
+    
+  </svg>

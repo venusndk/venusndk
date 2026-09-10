@@ -1,0 +1,49 @@
+<svg width="480" height="344" viewBox="0 0 480 344" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Top programming languages for venusndk">
+    
+    <rect x="0.75" y="0.75" width="478.5" height="342.5" rx="14" ry="14"
+      fill="#0c0f17" stroke="#1e293b" stroke-width="1.5"/>
+    <text x="24" y="38" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#f8fafc">Top Languages</text>
+  
+    <rect x="24" y="50" width="432" height="1" fill="#1e293b"/>
+    
+      <text x="24" y="68" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#cbd5e1">Python</text>
+      <text x="456" y="68" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#64748b">46.7%</text>
+      <rect x="24" y="74" width="432" height="8" rx="4" fill="#1e293b"/>
+      <rect x="24" y="74" width="201.95415792409236" height="8" rx="4" fill="#3572A5"/>
+    
+      <text x="24" y="102" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#cbd5e1">JavaScript</text>
+      <text x="456" y="102" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#64748b">27.2%</text>
+      <rect x="24" y="108" width="432" height="8" rx="4" fill="#1e293b"/>
+      <rect x="24" y="108" width="117.55365860136516" height="8" rx="4" fill="#f1e05a"/>
+    
+      <text x="24" y="136" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#cbd5e1">C#</text>
+      <text x="456" y="136" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#64748b">13.9%</text>
+      <rect x="24" y="142" width="432" height="8" rx="4" fill="#1e293b"/>
+      <rect x="24" y="142" width="60.07604578895647" height="8" rx="4" fill="#7355dd"/>
+    
+      <text x="24" y="170" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#cbd5e1">TypeScript</text>
+      <text x="456" y="170" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#64748b">9.2%</text>
+      <rect x="24" y="176" width="432" height="8" rx="4" fill="#1e293b"/>
+      <rect x="24" y="176" width="39.638915301054425" height="8" rx="4" fill="#3178c6"/>
+    
+      <text x="24" y="204" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#cbd5e1">HTML</text>
+      <text x="456" y="204" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#64748b">2.0%</text>
+      <rect x="24" y="210" width="432" height="8" rx="4" fill="#1e293b"/>
+      <rect x="24" y="210" width="8.438596584420068" height="8" rx="4" fill="#e34c26"/>
+    
+      <text x="24" y="238" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#cbd5e1">CSS</text>
+      <text x="456" y="238" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#64748b">0.7%</text>
+      <rect x="24" y="244" width="432" height="8" rx="4" fill="#1e293b"/>
+      <rect x="24" y="244" width="2.9545032004462035" height="8" rx="4" fill="#663399"/>
+    
+      <text x="24" y="272" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#cbd5e1">Dockerfile</text>
+      <text x="456" y="272" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#64748b">0.3%</text>
+      <rect x="24" y="278" width="432" height="8" rx="4" fill="#1e293b"/>
+      <rect x="24" y="278" width="2" height="8" rx="4" fill="#384d54"/>
+    
+      <text x="24" y="306" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#cbd5e1">Mako</text>
+      <text x="456" y="306" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#64748b">0.1%</text>
+      <rect x="24" y="312" width="432" height="8" rx="4" fill="#1e293b"/>
+      <rect x="24" y="312" width="2" height="8" rx="4" fill="#7e858d"/>
+    
+  </svg>
