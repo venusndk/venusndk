@@ -22,7 +22,7 @@
 
 <br/>
 
-## COMMITS STATISTICS
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" alt="Bar Chart" width="28" height="28" /> COMMITS STATISTICS
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=venusndk&theme=transparent&hide_border=true&ring=38bdf8&fire=0ea5e9&currStreakLabel=38bdf8&background=00000000" alt="GitHub contribution streak: total contributions, current streak, and longest streak" width="100%" />
@@ -42,11 +42,11 @@
 </p>
 
 ---
-## ABOUT ME
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Man%20Technologist.png" alt="Man Technologist" width="28" height="28" /> ABOUT ME
 
 I build **production-grade applications** across mobile, web, and backend with a relentless focus on **scalability**, **clean architecture**, and **exceptional user experience**.
 ---
-## ENGINEERING DASHBOARDS
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Desktop%20Computer.png" alt="Desktop Computer" width="28" height="28" /> ENGINEERING DASHBOARDS
 
 <table align="center">
 <tr>
@@ -69,7 +69,7 @@ I build **production-grade applications** across mobile, web, and backend with a
 
 ---
 
-## TECH STACK
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Toolbox.png" alt="Toolbox" width="28" height="28" /> TECH STACK
 
 <table align="center">
 <tr>
@@ -108,7 +108,7 @@ I build **production-grade applications** across mobile, web, and backend with a
 
 ---
 
-## LET'S CONNECT
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" alt="Handshake" width="28" height="28" /> LET'S CONNECT
 
 <p align="center">
   <a href="https://www.linkedin.com/in/venus-dev-985b4928a/" aria-label="LinkedIn">
