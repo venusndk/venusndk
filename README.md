@@ -1,53 +1,57 @@
-<!-- Ultra-Premium Engineering Dashboard README for venusndk -->
-<!-- All statistics below are generated live by .github/workflows/*.yml — see scripts/generate-dashboard.mjs -->
-<!-- Trophies card: scripts/generate-trophies.mjs, icons from React Icons (Tabler) in scripts/trophy-icons.mjs -->
+<!-- README for venusndk -->
+<!-- Commits Statistics streak card is generated live by .github/workflows/*.yml — see scripts/generate-dashboard.mjs -->
 <!-- Section icons: Iconify API (Tabler set), tinted #38bdf8 — rendered by GitHub as regular SVG images -->
+
 <div align="center">
 
+# Hi, I'm VENUS-DEV 👋
+
+### Flutter Developer · React Developer · Backend Engineer · AI Integration
+
 <p align="center">
-<img src="https://komarev.com/ghpvc/?username=venusndk&style=for-the-badge&color=0ea5e9&label=PROFILE+VIEWS" alt="Profile view counter" />&nbsp;
 <img src="https://img.shields.io/github/followers/venusndk?style=for-the-badge&logo=github&color=1d4ed8&label=FOLLOWERS" alt="GitHub followers count" />&nbsp;
 <img src="https://img.shields.io/github/stars/venusndk?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&logo=github&color=0f172a&label=STARS" alt="GitHub stars count" />
 </p>
 
-<br/>
-
-<p align="center">
-<img src="https://img.shields.io/badge/Flutter%20Developer-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter Developer badge" />&nbsp;
-<img src="https://img.shields.io/badge/React%20Developer-61DAFB?style=for-the-badge&logo=react&logoColor=111827" alt="React Developer badge" />&nbsp;
-<img src="https://img.shields.io/badge/Backend%20Engineer-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Backend Engineer badge" />&nbsp;
-<img src="https://img.shields.io/badge/AI%20Integration-1d4ed8?style=for-the-badge&logo=openai&logoColor=white" alt="AI Integration badge" />
-</p>
-
 </div>
 
-<br/>
+---
 
-## <img src="https://api.iconify.design/tabler/git-commit.svg?color=%2338bdf8" width="28" height="28" alt="" /> COMMITS STATISTICS
+## <img src="https://api.iconify.design/tabler/user-code.svg?color=%2338bdf8" width="28" height="28" alt="" /> ABOUT ME
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=venusndk&theme=transparent&hide_border=true&ring=38bdf8&fire=0ea5e9&currStreakLabel=38bdf8&background=00000000" alt="GitHub contribution streak: total contributions, current streak, and longest streak" width="100%" />
-</p>
+I build **production-grade applications** across mobile, web, and backend with a relentless focus on **scalability**, **clean architecture**, and **exceptional user experience**.
 
 ---
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/github-snake.svg" />
-    <img src="./assets/github-snake.svg" alt="Animated GitHub contribution snake moving across the January to December contribution grid" width="100%" />
-  </picture>
-</p>
 
----
-## <img src="https://api.iconify.design/tabler/layout-dashboard.svg?color=%2338bdf8" width="28" height="28" alt="" /> ENGINEERING DASHBOARDS
+## <img src="https://api.iconify.design/tabler/apps.svg?color=%2338bdf8" width="28" height="28" alt="" /> FEATURED PROJECTS
 
-<p align="center">
-  <img src="./assets/activity-graph.svg" alt="GitHub contribution activity graph from January to December" width="100%" />
-</p>
-
-<p align="center">
-  <img src="./assets/github-trophies.svg" alt="GitHub achievement trophies: repositories, commits, pull requests, followers, stars, and longest streak" width="100%" />
-</p>
+<table align="center">
+<tr>
+<th align="left" width="20%">Project</th>
+<th align="left">What it does</th>
+<th align="left" width="24%">Stack</th>
+</tr>
+<tr>
+<td><strong>DGL</strong><br/><a href="https://github.com/venusndk/DGL">repo</a></td>
+<td>Mobile-first driver–garage linking platform, backed by a Dockerized service layer and Firebase (auth, Firestore, storage).</td>
+<td><img src="https://skillicons.dev/icons?i=flutter,firebase,nodejs,docker" alt="Flutter, Firebase, Node.js, Docker" /></td>
+</tr>
+<tr>
+<td><strong>SORP</strong><br/><a href="https://github.com/venusndk/SORP">repo</a></td>
+<td>Full-stack MERN platform for staff operations & reporting, split into dedicated backend, web, and mobile clients.</td>
+<td><img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb" alt="React, Node.js, Express, MongoDB" /></td>
+</tr>
+<tr>
+<td><strong>CampChat</strong><br/><a href="https://github.com/venusndk/CampChat">repo</a></td>
+<td>Real-time chat platform with a Flutter mobile client, a Node.js/JS backend, and a Python ML service on PostgreSQL.</td>
+<td><img src="https://skillicons.dev/icons?i=flutter,nodejs,python,postgresql" alt="Flutter, Node.js, Python, PostgreSQL" /></td>
+</tr>
+<tr>
+<td><strong>Documents Converter</strong><br/><a href="https://github.com/venusndk/DOCUMENTS-CONVERTER">repo</a></td>
+<td>Production document-conversion utility with OCR, a Python API, database migrations, and Docker deployment.</td>
+<td><img src="https://skillicons.dev/icons?i=python,docker" alt="Python, Docker" /></td>
+</tr>
+</table>
 
 ---
 
@@ -90,6 +94,14 @@
 
 ---
 
+## <img src="https://api.iconify.design/tabler/git-commit.svg?color=%2338bdf8" width="28" height="28" alt="" /> COMMITS STATISTICS
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=venusndk&theme=transparent&hide_border=true&ring=38bdf8&fire=0ea5e9&currStreakLabel=38bdf8&background=00000000" alt="GitHub contribution streak: total contributions, current streak, and longest streak" width="100%" />
+</p>
+
+---
+
 ## <img src="https://api.iconify.design/tabler/plug-connected.svg?color=%2338bdf8" width="28" height="28" alt="" /> LET'S CONNECT
 
 <p align="center">
@@ -98,6 +110,9 @@
   </a>
   <a href="https://portfolio-xlzv.onrender.com/" aria-label="Portfolio">
     <img src="https://img.shields.io/badge/Portfolio-Visit-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio website link" />
+  </a>
+  <a href="https://portfolio-xlzv.onrender.com/assets/resume.pdf" aria-label="Resume">
+    <img src="https://img.shields.io/badge/Resume-Download-0ea5e9?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Resume download link" />
   </a>
   <a href="mailto:venustendikumana2003@gmail.com" aria-label="Email">
     <img src="https://img.shields.io/badge/Email-Contact-1d4ed8?style=for-the-badge&logo=gmail&logoColor=white" alt="Email contact link" />
