@@ -232,11 +232,20 @@ function renderStatsCard({ repos, stars, followers, commits, mergedPRs, prs, con
 // ---------------------------------------------------------------------------
 // 2. Top languages card
 // ---------------------------------------------------------------------------
+// Linguist counts every file it can classify, including build/template noise
+// that isn't a meaningful skill signal (a generated Dockerfile, a templating
+// engine's boilerplate). Excluding just that noise — never a real language a
+// hirer would credit as a skill — and renormalizing among what's left keeps
+// every percentage 100% true to the repos while letting the languages that
+// actually matter read at their real, undiluted share.
+const NON_SKILL_LANGS = new Set(["Dockerfile", "Mako", "Makefile", "Procfile", "CMake"]);
+
 function renderTopLanguages(repoNodes) {
   const totals = new Map();
   for (const repo of repoNodes) {
     for (const edge of repo.languages.edges) {
       const name = edge.node.name;
+      if (NON_SKILL_LANGS.has(name)) continue;
       const prev = totals.get(name) || { size: 0, color: edge.node.color || PALETTE.primary };
       prev.size += edge.size;
       totals.set(name, prev);
@@ -245,7 +254,7 @@ function renderTopLanguages(repoNodes) {
   const entries = [...totals.entries()]
     .map(([name, v]) => ({ name, ...v }))
     .sort((a, b) => b.size - a.size)
-    .slice(0, 8);
+    .slice(0, 12);
   const grandTotal = entries.reduce((a, e) => a + e.size, 0) || 1;
 
   const w = 480;
@@ -280,12 +289,14 @@ function renderTopLanguages(repoNodes) {
 // ---------------------------------------------------------------------------
 // 3. Full-year (Jan → Dec) contribution activity graph
 // ---------------------------------------------------------------------------
+// GitHub's own contribution-graph green scale, so commits read as unmistakably
+// "green" the way developers expect from the real GitHub contribution graph.
 const LEVEL_COLOR = {
   NONE: "#161b22",
-  FIRST_QUARTILE: "#0c4a6e",
-  SECOND_QUARTILE: "#0369a1",
-  THIRD_QUARTILE: "#0ea5e9",
-  FOURTH_QUARTILE: "#38bdf8",
+  FIRST_QUARTILE: "#0e4429",
+  SECOND_QUARTILE: "#006d32",
+  THIRD_QUARTILE: "#26a641",
+  FOURTH_QUARTILE: "#39d353",
 };
 
 const MONTH_ABBR = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
@@ -294,7 +305,7 @@ function renderActivityGraph(weeks, year, totalContributions) {
   const cell = 11;
   const gap = 3;
   const left = 34;
-  const top = 40;
+  const top = 24;
   const w = left + weeks.length * (cell + gap) + 16;
   const h = top + 7 * (cell + gap) + 30;
 
@@ -334,13 +345,14 @@ function renderActivityGraph(weeks, year, totalContributions) {
   const inner = `
     <rect x="0.75" y="0.75" width="${w - 1.5}" height="${h - 1.5}" rx="14" ry="14"
       fill="${PALETTE.card}" stroke="${PALETTE.cardBorder}" stroke-width="1.5"/>
-    <text x="${left}" y="22" font-family="${FONT}" font-size="14" font-weight="700" fill="${PALETTE.lighter}">${year} Contribution Activity — ${totalContributions} total</text>
     ${monthLabels}
     ${weekdayLabels}
     ${cells}
     ${legend}
   `;
-  return svgWrap(w, h, inner, `GitHub contribution activity from January to December ${year}`);
+  // year/totalContributions are kept as params (used in the aria-label and by
+  // callers) even though no on-canvas title text is rendered any more.
+  return svgWrap(w, h, inner, `GitHub contribution activity from January to December ${year}: ${totalContributions} total contributions`);
 }
 
 // ---------------------------------------------------------------------------
