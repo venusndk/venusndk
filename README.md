@@ -73,7 +73,7 @@ Open to: Product-focused engineering collaboration
 
 ---
 
-## TECH STUCK DEALING WITH
+## TECH STUCK
 
 <table align="center">
 <tr>
@@ -111,96 +111,10 @@ Open to: Product-focused engineering collaboration
 </table>
 
 ---
-
-## FEATURED PROJECTS
-
-<table align="center" width="100%">
-
-<tr>
-<td width="50%" valign="top">
-
-### CampChat
-Real-time messaging platform built for speed and reliability.
-
-**Highlights:** live messaging · responsive UI · modular backend
-**Stack:** `Flutter` `Firebase/Node.js` `Socket.IO` `REST APIs`
-
-[![Repo](https://img.shields.io/badge/GitHub-Repository-111827?style=for-the-badge&logo=github&logoColor=white)](https://github.com/venusndk/CampChat)
-
-</td>
-<td width="50%" valign="top">
-
-### Driver Garage Linker
-Digital workflow platform connecting driver and garage operations.
-
-**Highlights:** role-aware processes · workflow automation
-**Stack:** `Flutter` `Node.js` `Express.js` `PostgreSQL/SQLite`
-
-[![Repo](https://img.shields.io/badge/GitHub-Repository-111827?style=for-the-badge&logo=github&logoColor=white)](https://github.com/venusndk/Driver-Garage-Linker)
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### PCMS
-Personal Computer Maintenance System full lifecycle & diagnostics platform.
-
-**Highlights:** service records · diagnostics tracking · structured reports
-**Stack:** Full-stack with relational data design
-
-[![Repo](https://img.shields.io/badge/GitHub-Repository-111827?style=for-the-badge&logo=github&logoColor=white)](https://github.com/venusndk/PCMS)
-
-</td>
-<td width="50%" valign="top">
-
-### Portfolio Website
-Modern portfolio focused on clarity, speed, and visual quality.
-
-**Highlights:** responsive layout · polished UI · recruiter-friendly flow
-**Stack:** `React` `Tailwind CSS`
-
-[![Live Demo](https://img.shields.io/badge/Live-Demo-0ea5e9?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-xlzv.onrender.com/)
-
-</td>
-</tr>
-
-</table>
-
----
-
-## ENGINEERING PHYLOSOPHY
-
-<table align="center">
-<tr>
-<td align="center" width="16.6%">🧱<br/><strong>Clean Architecture</strong><br/><sub>Clear boundaries, modular components</sub></td>
-<td align="center" width="16.6%">📈<br/><strong>Scalability</strong><br/><sub>Built for traffic & feature growth</sub></td>
-<td align="center" width="16.6%">⚡<br/><strong>Performance</strong><br/><sub>Fast UI, efficient backend</sub></td>
-<td align="center" width="16.6%">🔒<br/><strong>Security</strong><br/><sub>Validation-first data handling</sub></td>
-<td align="center" width="16.6%">🛠️<br/><strong>Maintainability</strong><br/><sub>Readable, long-term code</sub></td>
-<td align="center" width="16.6%">📚<br/><strong>Continuous Learning</strong><br/><sub>Growth through delivery & feedback</sub></td>
-</tr>
-</table>
-
----
-
-## ACHIEVEMENTS BADGES
-
-<p align="center">
-  <img src="https://img.shields.io/badge/React-Frontend%20Engineering-61DAFB?style=for-the-badge&logo=react&logoColor=111827" alt="React badge" />
-  <img src="https://img.shields.io/badge/Tailwind%20CSS-UI%20Craftsmanship-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind badge" />
-  <img src="https://img.shields.io/badge/Flutter-Cross--Platform-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter badge" />
-  <img src="https://img.shields.io/badge/Node.js-Backend-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js badge" />
-  <img src="https://img.shields.io/badge/Open%20Source-Contributor-2563eb?style=for-the-badge&logo=github&logoColor=white" alt="Open source badge" />
-</p>
-
----
-
 ## LET'S CONNECT
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/ndikumana-venuste-985b4928a/" aria-label="LinkedIn">
+  <a href="https://www.linkedin.com/in/venus-dev-985b4928a/" aria-label="LinkedIn">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn link" />
   </a>
   <a href="https://portfolio-xlzv.onrender.com/" aria-label="Portfolio">
