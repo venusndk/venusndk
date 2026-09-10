@@ -39,6 +39,12 @@ jobs:
           DASHBOARD_USERNAME: venusndk
         run: node scripts/generate-dashboard.mjs
 
+      - name: Generate trophies (React icons)
+        run: node scripts/generate-trophies.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true
+
       - name: Commit updated assets
         env:
           GIT_AUTHOR_NAME: VENUS-DEV
