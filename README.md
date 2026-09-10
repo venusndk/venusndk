@@ -5,8 +5,6 @@
 
 <div align="center">
 
-<img src="./assets/header-animated.svg" alt="" width="100%" />
-
 # I'm Venuste NDIKUMANA
 
 **Flutter Developer • React Developer • Backend Developer • Pursuing AI Integration**
