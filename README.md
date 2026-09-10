@@ -30,10 +30,6 @@
   <img src="https://streak-stats.demolab.com/?user=venusndk&theme=transparent&hide_border=true&ring=38bdf8&fire=0ea5e9&currStreakLabel=38bdf8&background=00000000" alt="GitHub contribution streak: total contributions, current streak, and longest streak" width="100%" />
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&color=38bdf8&label=Total%20Commits&query=%24.total&url=https%3A%2F%2Fgithub-contributions-api.jogruber.de%2Fv4%2Fvenusndk%3Fy%3Dtotal&suffix=+commits" alt="Total commits badge, computed from real GitHub contribution history" />
-</p>
-
 ---
 <p align="center">
   <picture>
@@ -51,16 +47,9 @@ I build **production-grade applications** across mobile, web, and backend with a
 ---
 ## <img src="https://api.iconify.design/tabler/layout-dashboard.svg?color=%2338bdf8" width="28" height="28" alt="" /> ENGINEERING DASHBOARDS
 
-<table align="center">
-<tr>
-<td align="center" width="50%">
-  <img src="./assets/github-stats.svg" alt="GitHub statistics: repositories, stars, followers, commits, and pull requests" width="100%" />
-</td>
-<td align="center" width="50%">
-  <img src="./assets/top-languages.svg" alt="Top programming languages across owned repositories" width="100%" />
-</td>
-</tr>
-</table>
+<p align="center">
+  <img src="./assets/top-languages.svg" alt="Top programming languages across owned repositories" width="60%" />
+</p>
 
 <p align="center">
   <img src="./assets/activity-graph.svg" alt="GitHub contribution activity graph from January to December" width="100%" />
