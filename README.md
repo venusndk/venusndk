@@ -9,16 +9,16 @@
 
 <br/>
 
+<img src="https://komarev.com/ghpvc/?username=venusndk&style=for-the-badge&color=0ea5e9&label=PROFILE+VIEWS" alt="Profile view counter" />
+<img src="https://img.shields.io/github/followers/venusndk?style=for-the-badge&logo=github&color=1d4ed8&label=FOLLOWERS" alt="GitHub followers count" />
+<img src="https://img.shields.io/github/stars/venusndk?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&logo=github&color=0f172a&label=STARS" alt="GitHub stars count" />
+
+<br/><br/>
+
 <img src="https://img.shields.io/badge/Flutter%20Developer-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter Developer badge" />
 <img src="https://img.shields.io/badge/React%20Developer-61DAFB?style=for-the-badge&logo=react&logoColor=111827" alt="React Developer badge" />
 <img src="https://img.shields.io/badge/Backend%20Engineer-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Backend Engineer badge" />
 <img src="https://img.shields.io/badge/AI%20Integration-1d4ed8?style=for-the-badge&logo=openai&logoColor=white" alt="AI Integration badge" />
-
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=venusndk&style=for-the-badge&color=0ea5e9&label=PROFILE+VIEWS" alt="Profile view counter" />
-<img src="https://img.shields.io/github/followers/venusndk?style=for-the-badge&logo=github&color=1d4ed8&label=FOLLOWERS" alt="GitHub followers count" />
-<img src="https://img.shields.io/github/stars/venusndk?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&logo=github&color=0f172a&label=STARS" alt="GitHub stars count" />
 
 </div>
 
@@ -46,10 +46,6 @@ I build **production-grade applications** across mobile, web, and backend with a
 
 ---
 ## <img src="https://api.iconify.design/tabler/layout-dashboard.svg?color=%2338bdf8" width="28" height="28" alt="" /> ENGINEERING DASHBOARDS
-
-<p align="center">
-  <img src="./assets/top-languages.svg" alt="Top programming languages across owned repositories" width="60%" />
-</p>
 
 <p align="center">
   <img src="./assets/activity-graph.svg" alt="GitHub contribution activity graph from January to December" width="100%" />
