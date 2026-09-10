@@ -1,5 +1,6 @@
 <!-- Ultra-Premium Engineering Dashboard README for venusndk -->
 <!-- All statistics below are generated live by .github/workflows/*.yml — see scripts/generate-dashboard.mjs -->
+<!-- Trophies card: scripts/generate-trophies.mjs, icons from React Icons (Tabler) in scripts/trophy-icons.mjs -->
 <!-- Section icons: Iconify API (Tabler set), tinted #38bdf8 — rendered by GitHub as regular SVG images -->
 
 <div align="center">
@@ -66,7 +67,7 @@ I build **production-grade applications** across mobile, web, and backend with a
 </p>
 
 <p align="center">
-  <img src="./assets/github-trophies.svg" alt="GitHub achievement trophies computed from real contribution counts" width="100%" />
+  <img src="./assets/github-trophies.svg" alt="GitHub achievement trophies: repositories, commits, pull requests, followers, stars, and longest streak" width="100%" />
 </p>
 
 ---
