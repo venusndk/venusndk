@@ -2,7 +2,6 @@
 <!-- All statistics below are generated live by .github/workflows/*.yml — see scripts/generate-dashboard.mjs -->
 <!-- Trophies card: scripts/generate-trophies.mjs, icons from React Icons (Tabler) in scripts/trophy-icons.mjs -->
 <!-- Section icons: Iconify API (Tabler set), tinted #38bdf8 — rendered by GitHub as regular SVG images -->
-
 <div align="center">
 
 <p align="center">
