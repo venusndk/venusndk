@@ -5,7 +5,11 @@
 
 <div align="center">
 
-<img src="./assets/header-animated.svg" alt="Venuste Ndikumana animated profile header" width="100%" />
+<img src="./assets/header-animated.svg" alt="" width="100%" />
+
+# I'm Venuste NDIKUMANA
+
+**Flutter Developer • React Developer • Backend Developer • Pursuing AI Integration**
 
 <br/>
 
