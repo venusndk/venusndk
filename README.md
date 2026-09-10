@@ -25,19 +25,6 @@
 ## ABOUT ME
 
 I build **production-grade applications** across mobile, web, and backend with a relentless focus on **scalability**, **clean architecture**, and **exceptional user experience**.
-
-```yaml
-Name: Venuste Ndikumana
-Role: Full-Stack & Mobile Developer
-Focus: Flutter · React · Node.js · Firebase
-Currently: Computer Science & Information Security Y4
-Passionate About:
-  - Real-time systems & offline-first architecture
-  - Institutional & public-safety technology
-  - AI-assisted engineering workflows
-Open to: Product-focused engineering collaboration
-```
-
 ---
 
 ## COMMITS STATISTICS
@@ -58,8 +45,6 @@ Open to: Product-focused engineering collaboration
     <img src="./assets/github-snake.svg" alt="Animated GitHub contribution snake moving across the January to December contribution grid" width="100%" />
   </picture>
 </p>
-
-<p align="center"><sub><b>January · February · March · April · May · June · July · August · September · October · November · December</b></sub></p>
 
 ---
 
