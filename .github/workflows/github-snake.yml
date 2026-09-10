@@ -1,0 +1,52 @@
+name: Generate Contribution Snake
+
+# Regenerates assets/github-snake.svg (light) and assets/github-snake-dark.svg (dark)
+# from the real GitHub contribution graph for venusndk, then commits them straight
+# into the default branch so the README can reference stable, repo-local files
+# instead of an external rendering service.
+
+on:
+  schedule:
+    # 03:17 UTC daily — an off-the-hour time to avoid GitHub Actions' peak-load queueing.
+    - cron: "17 3 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: github-snake
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    if: github.repository == 'venusndk/venusndk'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate snake SVGs
+        uses: Platane/snk@v3
+        id: snake
+        with:
+          github_user_name: venusndk
+          outputs: |
+            assets/github-snake.svg
+            assets/github-snake-dark.svg?palette=github-dark
+
+      - name: Commit updated assets
+        env:
+          GIT_AUTHOR_NAME: VENUS-DEV
+          GIT_AUTHOR_EMAIL: ndikumanavenuste6@gmail.com
+          GIT_COMMITTER_NAME: VENUS-DEV
+          GIT_COMMITTER_EMAIL: ndikumanavenuste6@gmail.com
+        run: |
+          set -e
+          if git diff --quiet -- assets/github-snake.svg assets/github-snake-dark.svg; then
+            echo "No contribution-graph changes — skipping commit."
+            exit 0
+          fi
+          git add assets/github-snake.svg assets/github-snake-dark.svg
+          git commit -m "chore: update contribution snake [skip ci]"
+          git push
