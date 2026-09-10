@@ -4,7 +4,7 @@
 
 <div align="center">
 
-# Hi, I'm VENUS-DEV 👋
+# Hi, I'm VENUS-DEV 💻
 
 ### Flutter Developer · React Developer · Backend Engineer · AI Integration
 
