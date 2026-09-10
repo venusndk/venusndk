@@ -3,14 +3,6 @@
 <!-- Trophies card: scripts/generate-trophies.mjs, icons from React Icons (Tabler) in scripts/trophy-icons.mjs -->
 <!-- Section icons: Iconify API (Tabler set), tinted #38bdf8 — rendered by GitHub as regular SVG images -->
 
-<div align="center">
-
-# I'm Venuste NDIKUMANA
-
-**Flutter Developer • React Developer • Backend Developer • Pursuing AI Integration**
-
-<br/>
-
 <img src="https://komarev.com/ghpvc/?username=venusndk&style=for-the-badge&color=0ea5e9&label=PROFILE+VIEWS" alt="Profile view counter" />
 <img src="https://img.shields.io/github/followers/venusndk?style=for-the-badge&logo=github&color=1d4ed8&label=FOLLOWERS" alt="GitHub followers count" />
 <img src="https://img.shields.io/github/stars/venusndk?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&logo=github&color=0f172a&label=STARS" alt="GitHub stars count" />
