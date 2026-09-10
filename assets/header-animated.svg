@@ -105,7 +105,7 @@
 
     <!-- Name -->
     <text x="600" y="118" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff" letter-spacing="2">
-      I'M Venuste NDIKUMANA
+      I'm Venuste NDIKUMANA
     </text>
 
     <!-- Role line -->
@@ -120,7 +120,7 @@
     <g clip-path="url(#rounded)">
       <text y="222" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#38bdf8">
         <animate attributeName="x" values="1200;-1050" dur="16s" begin="0s" repeatCount="indefinite"/>
-        Building scalable mobile &amp; web products &#160;&#160;•&#160;&#160; Flutter · React · Node.js · Firebase &#160;&#160;•&#160;&#160; Clean Architecture · REST APIs · Real-Time Systems
+        I build scalable mobile &amp; web products &#160;&#160;•&#160;&#160; Flutter · React · Node.js · Firebase &#160;&#160;•&#160;&#160; Clean Architecture · REST APIs · Real-Time Systems
       </text>
     </g>
   </g>
