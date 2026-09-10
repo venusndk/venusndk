@@ -52,25 +52,6 @@
 
 ---
 
-## <img src="https://api.iconify.design/tabler/plug-connected.svg?color=%2338bdf8" width="28" height="28" alt="" /> LET'S CONNECT
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/venus-dev-985b4928a/" aria-label="LinkedIn">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile link" />
-  </a>
-  <a href="https://portfolio-xlzv.onrender.com/" aria-label="Portfolio">
-    <img src="https://img.shields.io/badge/Portfolio-Visit-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio website link" />
-  </a>
-  <a href="mailto:venustendikumana2003@gmail.com" aria-label="Email">
-    <img src="https://img.shields.io/badge/Email-Contact-1d4ed8?style=for-the-badge&logo=gmail&logoColor=white" alt="Email contact link" />
-  </a>
-  <a href="https://github.com/venusndk" aria-label="GitHub">
-    <img src="https://img.shields.io/badge/GitHub-@venusndk-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile link" />
-  </a>
-</p>
-
----
-
 ## <img src="https://api.iconify.design/tabler/stack-2.svg?color=%2338bdf8" width="28" height="28" alt="" /> TECH STACK
 
 <table align="center">
@@ -107,6 +88,25 @@
 <img src="https://img.shields.io/badge/Machine%20Learning-0ea5e9?style=flat-square&logo=tensorflow&logoColor=white" alt="Machine Learning" /></td>
 </tr>
 </table>
+
+---
+
+## <img src="https://api.iconify.design/tabler/plug-connected.svg?color=%2338bdf8" width="28" height="28" alt="" /> LET'S CONNECT
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/venus-dev-985b4928a/" aria-label="LinkedIn">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile link" />
+  </a>
+  <a href="https://portfolio-xlzv.onrender.com/" aria-label="Portfolio">
+    <img src="https://img.shields.io/badge/Portfolio-Visit-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio website link" />
+  </a>
+  <a href="mailto:venustendikumana2003@gmail.com" aria-label="Email">
+    <img src="https://img.shields.io/badge/Email-Contact-1d4ed8?style=for-the-badge&logo=gmail&logoColor=white" alt="Email contact link" />
+  </a>
+  <a href="https://github.com/venusndk" aria-label="GitHub">
+    <img src="https://img.shields.io/badge/GitHub-@venusndk-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile link" />
+  </a>
+</p>
 
 ---
 
