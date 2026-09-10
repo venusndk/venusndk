@@ -1,27 +1,28 @@
-<!-- Ultra-Premium Animated GitHub Profile README for venusndk -->
+<!-- Ultra-Premium Engineering Dashboard README for venusndk -->
+<!-- All statistics below are generated live by .github/workflows/*.yml — see scripts/generate-dashboard.mjs -->
 
 <div align="center">
 
-<img src="./assets/header-animated.svg" alt="Venuste Ndikumana — animated header with floating background bubbles" width="100%" />
+<img src="./assets/header-animated.svg" alt="Venuste Ndikumana animated profile header" width="100%" />
 
 <br/>
 
-<img src="https://img.shields.io/badge/Flutter%20Developer-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
-<img src="https://img.shields.io/badge/React%20Developer-61DAFB?style=for-the-badge&logo=react&logoColor=111827" />
-<img src="https://img.shields.io/badge/Backend%20Engineer-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-<img src="https://img.shields.io/badge/AI%20Integration-1d4ed8?style=for-the-badge&logo=openai&logoColor=white" />
+<img src="https://img.shields.io/badge/Flutter%20Developer-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter Developer badge" />
+<img src="https://img.shields.io/badge/React%20Developer-61DAFB?style=for-the-badge&logo=react&logoColor=111827" alt="React Developer badge" />
+<img src="https://img.shields.io/badge/Backend%20Engineer-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Backend Engineer badge" />
+<img src="https://img.shields.io/badge/AI%20Integration-1d4ed8?style=for-the-badge&logo=openai&logoColor=white" alt="AI Integration badge" />
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=venusndk&style=for-the-badge&color=0ea5e9&label=PROFILE+VIEWS" alt="Profile views" />
-<img src="https://img.shields.io/github/followers/venusndk?style=for-the-badge&logo=github&color=1d4ed8&label=FOLLOWERS" alt="Followers badge" />
-<img src="https://img.shields.io/github/stars/venusndk?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&logo=github&color=0f172a&label=STARS" alt="Stars badge" />
+<img src="https://komarev.com/ghpvc/?username=venusndk&style=for-the-badge&color=0ea5e9&label=PROFILE+VIEWS" alt="Profile view counter" />
+<img src="https://img.shields.io/github/followers/venusndk?style=for-the-badge&logo=github&color=1d4ed8&label=FOLLOWERS" alt="GitHub followers count" />
+<img src="https://img.shields.io/github/stars/venusndk?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&logo=github&color=0f172a&label=STARS" alt="GitHub stars count" />
 
 </div>
 
 <br/>
 
-## ABOUT ME
+## About Me
 
 I build **production-grade applications** across mobile, web, and backend with a relentless focus on **scalability**, **clean architecture**, and **exceptional user experience**.
 
@@ -39,41 +40,62 @@ Open to: Product-focused engineering collaboration
 
 ---
 
-## COMMIT STATISTICS
+## Commit Statistics
 
-<p align="left">
-  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&color=38bdf8&label=Total%20Commits&query=%24.total&url=https%3A%2F%2Fgithub-contributions-api.jogruber.de%2Fv4%2Fvenusndk%3Fy%3Dtotal&suffix=+commits" alt="Total commits badge" />
-  <img src="https://img.shields.io/github/commit-activity/y/venusndk/venusndk?style=for-the-badge&color=0ea5e9&label=Commits%20This%20Year" alt="Yearly commit activity badge" />
+Live, real contribution data — no fabricated or hardcoded numbers. Refreshed automatically every day by [`github-dashboard.yml`](.github/workflows/github-dashboard.yml).
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=venusndk&theme=transparent&hide_border=true&ring=38bdf8&fire=0ea5e9&currStreakLabel=38bdf8&background=00000000" alt="GitHub contribution streak: total contributions, current streak, and longest streak" width="100%" />
 </p>
 
-<p align="left">
-  <img src="https://ghchart.rshah.org/38bdf8/venusndk" alt="Venuste's GitHub commit calendar" width="100%" />
-</p>
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=venusndk&show_icons=true&theme=transparent&hide_border=true&title_color=38bdf8&icon_color=0ea5e9&text_color=cbd5e1&rank_icon=github&count_private=true&include_all_commits=true" alt="GitHub stats with total commit count" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=venusndk&theme=transparent&hide_border=true&ring=38bdf8&fire=0ea5e9&currStreakLabel=38bdf8" alt="GitHub streak" width="48%" />
+<p align="center">
+  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&color=38bdf8&label=Total%20Commits&query=%24.total&url=https%3A%2F%2Fgithub-contributions-api.jogruber.de%2Fv4%2Fvenusndk%3Fy%3Dtotal&suffix=+commits" alt="Total commits badge, computed from real GitHub contribution history" />
 </p>
 
 ---
 
-## ENGINEERING DASHBOARD
+## Contribution Snake — January → December
+
+An animated snake that eats its way across my **real** GitHub contribution graph for the year, regenerated daily from live data by [`github-snake.yml`](.github/workflows/github-snake.yml) using [Platane/snk](https://github.com/Platane/snk) — no external rendering service, just a static SVG committed to this repo.
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=venusndk&layout=compact&theme=transparent&hide_border=true&title_color=38bdf8&text_color=cbd5e1&langs_count=8" alt="Top languages" width="60%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/github-snake.svg" />
+    <img src="./assets/github-snake.svg" alt="Animated GitHub contribution snake moving across the January to December contribution grid" width="100%" />
+  </picture>
+</p>
+
+<p align="center"><sub><b>January · February · March · April · May · June · July · August · September · October · November · December</b></sub></p>
+
+---
+
+## Engineering Dashboard
+
+Every card below is rendered as a **static SVG committed to `assets/`** by [`github-dashboard.yml`](.github/workflows/github-dashboard.yml), which queries the GitHub GraphQL API directly. This avoids the shared public stats services (github-readme-stats, github-readme-activity-graph, github-profile-trophy) that are frequently rate-limited or suspended — the root cause of the broken images this README replaces.
+
+<table align="center">
+<tr>
+<td align="center" width="50%">
+  <img src="./assets/github-stats.svg" alt="GitHub statistics: repositories, stars, followers, commits, and pull requests" width="100%" />
+</td>
+<td align="center" width="50%">
+  <img src="./assets/top-languages.svg" alt="Top programming languages across owned repositories" width="100%" />
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <img src="./assets/activity-graph.svg" alt="GitHub contribution activity graph from January to December" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=venusndk&bg_color=020617&color=93c5fd&line=3b82f6&point=38bdf8&area=true&hide_border=true" alt="Animated contribution graph" width="100%" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=venusndk&theme=algolia&no-frame=true&column=7&margin-w=6&margin-h=6" alt="GitHub trophies" width="100%" />
+  <img src="./assets/github-trophies.svg" alt="GitHub achievement trophies computed from real contribution counts" width="100%" />
 </p>
 
 ---
 
-## TECH STUCK
+## Tech Stack
 
 <table align="center">
 <tr>
@@ -82,52 +104,62 @@ Open to: Product-focused engineering collaboration
 </tr>
 <tr>
 <td><strong>Mobile</strong></td>
-<td><img src="https://skillicons.dev/icons?i=flutter,dart" /></td>
+<td><img src="https://skillicons.dev/icons?i=flutter,dart" alt="Flutter and Dart" /></td>
 </tr>
 <tr>
 <td><strong>Frontend</strong></td>
-<td><img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css,vite,js,ts" /></td>
+<td><img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css,vite,js,ts" alt="React, Next.js, Tailwind CSS, HTML, CSS, Vite, JavaScript, TypeScript" /></td>
 </tr>
 <tr>
 <td><strong>Backend & APIs</strong></td>
-<td><img src="https://skillicons.dev/icons?i=nodejs,express,firebase" />&nbsp;
-<img src="https://img.shields.io/badge/REST%20APIs-0ea5e9?style=flat-square&logo=fastapi&logoColor=white" />&nbsp;
-<img src="https://img.shields.io/badge/Socket.IO-111827?style=flat-square&logo=socketdotio&logoColor=white" />&nbsp;
-<img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" /></td>
+<td><img src="https://skillicons.dev/icons?i=nodejs,express,firebase" alt="Node.js, Express, Firebase" />&nbsp;
+<img src="https://img.shields.io/badge/REST%20APIs-0ea5e9?style=flat-square&logo=fastapi&logoColor=white" alt="REST APIs" />&nbsp;
+<img src="https://img.shields.io/badge/Socket.IO-111827?style=flat-square&logo=socketdotio&logoColor=white" alt="Socket.IO" />&nbsp;
+<img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT" /></td>
 </tr>
 <tr>
 <td><strong>Databases</strong></td>
-<td><img src="https://skillicons.dev/icons?i=postgresql,sqlite,mongodb" /></td>
+<td><img src="https://skillicons.dev/icons?i=postgresql,sqlite,mongodb" alt="PostgreSQL, SQLite, MongoDB" /></td>
 </tr>
 <tr>
 <td><strong>Cloud & DevOps</strong></td>
-<td><img src="https://skillicons.dev/icons?i=aws,gcp,docker,git,github,linux,vscode,postman" /></td>
+<td><img src="https://skillicons.dev/icons?i=aws,gcp,docker,git,github,linux,vscode,postman" alt="AWS, GCP, Docker, Git, GitHub, Linux, VS Code, Postman" /></td>
 </tr>
 <tr>
 <td><strong>AI / ML</strong></td>
-<td><img src="https://img.shields.io/badge/AI%20Integration-1d4ed8?style=flat-square&logo=openai&logoColor=white" />&nbsp;
-<img src="https://img.shields.io/badge/Machine%20Learning-0ea5e9?style=flat-square&logo=tensorflow&logoColor=white" /></td>
+<td><img src="https://img.shields.io/badge/AI%20Integration-1d4ed8?style=flat-square&logo=openai&logoColor=white" alt="AI Integration" />&nbsp;
+<img src="https://img.shields.io/badge/Machine%20Learning-0ea5e9?style=flat-square&logo=tensorflow&logoColor=white" alt="Machine Learning" /></td>
 </tr>
 </table>
 
 ---
-## LET'S CONNECT
+
+## Let's Connect
 
 <p align="center">
   <a href="https://www.linkedin.com/in/venus-dev-985b4928a/" aria-label="LinkedIn">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn link" />
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile link" />
   </a>
   <a href="https://portfolio-xlzv.onrender.com/" aria-label="Portfolio">
-    <img src="https://img.shields.io/badge/Portfolio-Visit-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio link" />
+    <img src="https://img.shields.io/badge/Portfolio-Visit-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio website link" />
   </a>
   <a href="mailto:venustendikumana2003@gmail.com" aria-label="Email">
-    <img src="https://img.shields.io/badge/Email-Contact-1d4ed8?style=for-the-badge&logo=gmail&logoColor=white" alt="Email link" />
+    <img src="https://img.shields.io/badge/Email-Contact-1d4ed8?style=for-the-badge&logo=gmail&logoColor=white" alt="Email contact link" />
   </a>
   <a href="https://github.com/venusndk" aria-label="GitHub">
-    <img src="https://img.shields.io/badge/GitHub-@venusndk-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub link" />
+    <img src="https://img.shields.io/badge/GitHub-@venusndk-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile link" />
   </a>
 </p>
 
-<p align="center"><i> "Great software is built one clean commit at a time."</i></p>
+---
+
+<div align="center">
+
+Thanks for stopping by — I'm always glad to talk through an idea, a product, or a hard engineering problem.
+If something above sparked a conversation, reach out through any of the links.
+
+<p><i>"Great software is built one clean commit at a time."</i></p>
+
+</div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=130&section=footer&color=0:38bdf8,30:1d4ed8,65:1e293b,100:020617" alt="Animated footer wave" width="100%" />
