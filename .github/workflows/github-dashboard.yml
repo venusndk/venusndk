@@ -1,0 +1,56 @@
+name: Generate Engineering Dashboard
+
+# Regenerates assets/github-stats.svg, assets/top-languages.svg,
+# assets/activity-graph.svg and assets/github-trophies.svg directly from the
+# GitHub GraphQL API (scripts/generate-dashboard.mjs) and commits them to the
+# default branch. This keeps the README's dashboard on real, repo-local files
+# instead of third-party rendering services that are frequently rate limited.
+
+on:
+  schedule:
+    # 04:05 UTC daily — offset from the snake workflow to avoid both jobs
+    # racing to push at the same time.
+    - cron: "5 4 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: github-dashboard
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    if: github.repository == 'venusndk/venusndk'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate dashboard SVGs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DASHBOARD_USERNAME: venusndk
+        run: node scripts/generate-dashboard.mjs
+
+      - name: Commit updated assets
+        env:
+          GIT_AUTHOR_NAME: VENUS-DEV
+          GIT_AUTHOR_EMAIL: ndikumanavenuste6@gmail.com
+          GIT_COMMITTER_NAME: VENUS-DEV
+          GIT_COMMITTER_EMAIL: ndikumanavenuste6@gmail.com
+        run: |
+          set -e
+          git add assets/github-stats.svg assets/top-languages.svg assets/activity-graph.svg assets/github-trophies.svg assets/dashboard-summary.json
+          if git diff --cached --quiet; then
+            echo "No stats changes — skipping commit."
+            exit 0
+          fi
+          git commit -m "chore: refresh engineering dashboard [skip ci]"
+          git push
