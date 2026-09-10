@@ -40,12 +40,12 @@
     <img src="./assets/github-snake.svg" alt="Animated GitHub contribution snake moving across the January to December contribution grid" width="100%" />
   </picture>
 </p>
+
 ---
 ## ABOUT ME
 
 I build **production-grade applications** across mobile, web, and backend with a relentless focus on **scalability**, **clean architecture**, and **exceptional user experience**.
 ---
-
 ## ENGINEERING DASHBOARDS
 
 <table align="center">
