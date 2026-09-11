@@ -10,8 +10,6 @@
 
 ---
 
-## <img src="https://api.iconify.design/tabler/git-commit.svg?color=%2338bdf8" width="28" height="28" alt="" /> COMMITS STATISTICS
-
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=venusndk&theme=transparent&hide_border=true&ring=38bdf8&fire=0ea5e9&currStreakLabel=38bdf8&background=00000000" alt="GitHub contribution streak: total contributions, current streak, and longest streak" width="100%" />
 </p>
