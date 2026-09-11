@@ -18,6 +18,10 @@
   <img src="./assets/activity-graph.svg" alt="GitHub contribution activity graph from January to December" width="100%" />
 </p>
 
+<p align="center">
+  <img src="./assets/contribution-trend.svg" alt="Weekly GitHub contribution trend, highlighting the highest- and lowest-activity weeks" width="100%" />
+</p>
+
 ---
 
 ## <img src="https://api.iconify.design/tabler/user-code.svg?color=%2338bdf8" width="28" height="28" alt="" /> ABOUT ME

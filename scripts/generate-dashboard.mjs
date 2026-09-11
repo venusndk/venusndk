@@ -14,6 +14,7 @@
  *   github-stats.svg      overview card (repos, stars, commits, PRs, followers…)
  *   top-languages.svg     aggregated language breakdown across owned repos
  *   activity-graph.svg    full Jan → Dec contribution calendar for the year
+ *   contribution-trend.svg weekly contribution line/area chart (high vs low)
  *   github-trophies.svg   achievement tiers computed from the real counts above
  *
  * Requires: GITHUB_TOKEN (or GH_TOKEN) env var with read access to public
@@ -356,6 +357,107 @@ function renderActivityGraph(weeks, year, totalContributions) {
 }
 
 // ---------------------------------------------------------------------------
+// 3b. Weekly contribution trend — a line/area chart showing where activity
+//     runs high or low across the year (same weekly data as the calendar
+//     above, just plotted as a trend instead of a heatmap).
+// ---------------------------------------------------------------------------
+function renderTrendGraph(weeks, year) {
+  const totals = weeks.map((w) => w.contributionDays.reduce((s, d) => s + d.contributionCount, 0));
+  const firstDates = weeks.map((w) => w.contributionDays[0]?.date).filter(Boolean);
+
+  const w = 920;
+  const h = 260;
+  const padL = 40;
+  const padR = 20;
+  const padT = 24;
+  const padB = 34;
+  const plotW = w - padL - padR;
+  const plotH = h - padT - padB;
+
+  const maxVal = Math.max(1, ...totals);
+  const n = totals.length;
+  const xFor = (i) => padL + (n <= 1 ? 0 : (i / (n - 1)) * plotW);
+  const yFor = (v) => padT + plotH - (v / maxVal) * plotH;
+
+  const points = totals.map((v, i) => [xFor(i), yFor(v)]);
+
+  // Light smoothing: quadratic-bezier through midpoints, so the line reads
+  // as a trend rather than a jagged week-by-week zigzag.
+  let linePath = `M ${points[0][0].toFixed(1)} ${points[0][1].toFixed(1)}`;
+  for (let i = 1; i < points.length; i++) {
+    const [px, py] = points[i - 1];
+    const [cx, cy] = points[i];
+    const mx = (px + cx) / 2;
+    const my = (py + cy) / 2;
+    linePath += ` Q ${px.toFixed(1)} ${py.toFixed(1)} ${mx.toFixed(1)} ${my.toFixed(1)}`;
+  }
+  const [lastX, lastY] = points[points.length - 1];
+  linePath += ` T ${lastX.toFixed(1)} ${lastY.toFixed(1)}`;
+
+  const areaPath = `${linePath} L ${lastX.toFixed(1)} ${(padT + plotH).toFixed(1)} L ${points[0][0].toFixed(1)} ${(padT + plotH).toFixed(1)} Z`;
+
+  // Gridlines + y-axis labels at 0 / mid / max.
+  const gridVals = [0, Math.round(maxVal / 2), maxVal];
+  const grid = gridVals
+    .map((v) => {
+      const y = yFor(v);
+      return `
+        <line x1="${padL}" y1="${y.toFixed(1)}" x2="${w - padR}" y2="${y.toFixed(1)}" stroke="${PALETTE.cardBorder}" stroke-width="1" stroke-dasharray="3 4"/>
+        <text x="${padL - 8}" y="${(y + 4).toFixed(1)}" text-anchor="end" font-family="${FONT}" font-size="10.5" fill="${PALETTE.muted}">${v}</text>
+      `;
+    })
+    .join("");
+
+  // Month tick labels along the x-axis, same "first week of a new month" rule
+  // used by the calendar graph above.
+  let monthLabels = "";
+  let lastMonth = -1;
+  firstDates.forEach((date, i) => {
+    const month = new Date(date + "T00:00:00Z").getUTCMonth();
+    if (month !== lastMonth) {
+      monthLabels += `<text x="${xFor(i).toFixed(1)}" y="${h - 10}" font-family="${FONT}" font-size="10.5" fill="${PALETTE.muted}">${MONTH_ABBR[month]}</text>`;
+      lastMonth = month;
+    }
+  });
+
+  // Callouts for the single highest and lowest (but non-empty) weeks — this
+  // is the "where it goes high or low" signal, made explicit rather than
+  // left for the eye to find.
+  let peakIdx = 0;
+  let troughIdx = 0;
+  totals.forEach((v, i) => {
+    if (v > totals[peakIdx]) peakIdx = i;
+    if (totals[i] > 0 && (totals[troughIdx] === 0 || v < totals[troughIdx])) troughIdx = i;
+  });
+
+  const callout = (idx, label, color, dy) => {
+    const [x, y] = points[idx];
+    return `
+      <circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="4.5" fill="${color}" stroke="${PALETTE.bg}" stroke-width="1.5"/>
+      <text x="${x.toFixed(1)}" y="${(y + dy).toFixed(1)}" text-anchor="middle" font-family="${FONT}" font-size="10.5" font-weight="700" fill="${color}">${label}: ${totals[idx]}</text>
+    `;
+  };
+
+  const inner = `
+    <rect x="0.75" y="0.75" width="${w - 1.5}" height="${h - 1.5}" rx="14" ry="14"
+      fill="${PALETTE.card}" stroke="${PALETTE.cardBorder}" stroke-width="1.5"/>
+    <defs>
+      <linearGradient id="trendFill" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="${PALETTE.primary}" stop-opacity="0.35"/>
+        <stop offset="100%" stop-color="${PALETTE.primary}" stop-opacity="0"/>
+      </linearGradient>
+    </defs>
+    ${grid}
+    <path d="${areaPath}" fill="url(#trendFill)"/>
+    <path d="${linePath}" fill="none" stroke="${PALETTE.primary}" stroke-width="2.5" stroke-linecap="round"/>
+    ${monthLabels}
+    ${callout(peakIdx, "High", "#39d353", -12)}
+    ${callout(troughIdx, "Low", "#f87171", 20)}
+  `;
+  return svgWrap(w, h, inner, `Weekly GitHub contribution trend for ${year}, showing higher- and lower-activity weeks`);
+}
+
+// ---------------------------------------------------------------------------
 // 4. Achievement / trophy tiers, computed from real counts
 // ---------------------------------------------------------------------------
 function tierFor(value, thresholds) {
@@ -444,6 +546,7 @@ async function main() {
     year,
     user.yearCalendar.contributionCalendar.totalContributions
   );
+  const trendSvg = renderTrendGraph(user.yearCalendar.contributionCalendar.weeks, year);
   const trophiesSvg = renderTrophies({
     repos: statsMetrics.repos,
     commits: statsMetrics.commits,
@@ -456,6 +559,7 @@ async function main() {
   await writeFile(path.join(OUT_DIR, "github-stats.svg"), statsSvg, "utf8");
   await writeFile(path.join(OUT_DIR, "top-languages.svg"), langSvg, "utf8");
   await writeFile(path.join(OUT_DIR, "activity-graph.svg"), activitySvg, "utf8");
+  await writeFile(path.join(OUT_DIR, "contribution-trend.svg"), trendSvg, "utf8");
   await writeFile(path.join(OUT_DIR, "github-trophies.svg"), trophiesSvg, "utf8");
 
   // Small JSON summary consumed by the README-badges step (commit streak numbers).
