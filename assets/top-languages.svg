@@ -9,31 +9,31 @@
       <text x="24" y="68" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#cbd5e1">Python</text>
       <text x="456" y="68" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#64748b">45.7%</text>
       <rect x="24" y="74" width="432" height="8" rx="4" fill="#1e293b"/>
-      <rect x="24" y="74" width="197.56208206706677" height="8" rx="4" fill="#3572A5"/>
+      <rect x="24" y="74" width="197.43230050199065" height="8" rx="4" fill="#3572A5"/>
     
       <text x="24" y="102" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#cbd5e1">JavaScript</text>
-      <text x="456" y="102" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#64748b">29.1%</text>
+      <text x="456" y="102" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#64748b">29.2%</text>
       <rect x="24" y="108" width="432" height="8" rx="4" fill="#1e293b"/>
-      <rect x="24" y="108" width="125.74622241891636" height="8" rx="4" fill="#f1e05a"/>
+      <rect x="24" y="108" width="125.94740522762679" height="8" rx="4" fill="#f1e05a"/>
     
       <text x="24" y="136" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#cbd5e1">C#</text>
       <text x="456" y="136" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#64748b">13.6%</text>
       <rect x="24" y="142" width="432" height="8" rx="4" fill="#1e293b"/>
-      <rect x="24" y="142" width="58.769518837456836" height="8" rx="4" fill="#7355dd"/>
+      <rect x="24" y="142" width="58.730912238185915" height="8" rx="4" fill="#7355dd"/>
     
       <text x="24" y="170" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#cbd5e1">TypeScript</text>
       <text x="456" y="170" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#64748b">9.0%</text>
       <rect x="24" y="176" width="432" height="8" rx="4" fill="#1e293b"/>
-      <rect x="24" y="176" width="38.77685271872384" height="8" rx="4" fill="#3178c6"/>
+      <rect x="24" y="176" width="38.7513796087935" height="8" rx="4" fill="#3178c6"/>
     
       <text x="24" y="204" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#cbd5e1">HTML</text>
       <text x="456" y="204" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#64748b">1.9%</text>
       <rect x="24" y="210" width="432" height="8" rx="4" fill="#1e293b"/>
-      <rect x="24" y="210" width="8.255074954033333" height="8" rx="4" fill="#e34c26"/>
+      <rect x="24" y="210" width="8.24965206854769" height="8" rx="4" fill="#e34c26"/>
     
       <text x="24" y="238" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#cbd5e1">CSS</text>
       <text x="456" y="238" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#64748b">0.7%</text>
       <rect x="24" y="244" width="432" height="8" rx="4" fill="#1e293b"/>
-      <rect x="24" y="244" width="2.8902490038029134" height="8" rx="4" fill="#663399"/>
+      <rect x="24" y="244" width="2.888350354855461" height="8" rx="4" fill="#663399"/>
     
   </svg>
