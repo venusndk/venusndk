@@ -92,9 +92,6 @@
   <a href="mailto:venustendikumana2003@gmail.com" aria-label="Email">
     <img src="https://img.shields.io/badge/Email-Contact-1d4ed8?style=for-the-badge&logo=gmail&logoColor=white" alt="Email contact link" />
   </a>
-  <a href="https://github.com/venusndk" aria-label="GitHub">
-    <img src="https://img.shields.io/badge/GitHub-@venusndk-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile link" />
-  </a>
 </p>
 
 ---
