@@ -22,6 +22,14 @@
   <img src="./assets/contribution-trend.svg" alt="Weekly GitHub contribution trend, highlighting the highest- and lowest-activity weeks" width="100%" />
 </p>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/github-snake.svg" />
+    <img src="./assets/github-snake.svg" alt="Animated GitHub contribution snake moving across the January to December contribution grid, eating each day's contribution square" width="100%" />
+  </picture>
+</p>
+
 ---
 
 ## <img src="https://api.iconify.design/tabler/user-code.svg?color=%2338bdf8" width="28" height="28" alt="" /> ABOUT ME
