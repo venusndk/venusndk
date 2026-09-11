@@ -30,6 +30,10 @@
   </picture>
 </p>
 
+<p align="center">
+  <img src="./assets/github-trophies.svg" alt="GitHub achievement badges: repositories, commits, pull requests, followers, stars, and longest streak" width="100%" />
+</p>
+
 ---
 
 ## <img src="https://api.iconify.design/tabler/stack-2.svg?color=%2338bdf8" width="28" height="28" alt="" /> TECH STACK
