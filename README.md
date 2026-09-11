@@ -6,11 +6,6 @@
 
 <img src="./assets/hero-banner.svg" alt="Venus-Dev — Software Engineer. Flutter Developer, React Developer, Backend Engineer, AI Integration" width="100%" />
 
-<p align="center">
-<img src="https://img.shields.io/github/followers/venusndk?style=for-the-badge&logo=github&color=1d4ed8&label=FOLLOWERS" alt="GitHub followers count" />&nbsp;
-<img src="https://img.shields.io/github/stars/venusndk?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&logo=github&color=0f172a&label=STARS" alt="GitHub stars count" />
-</p>
-
 </div>
 
 ---
