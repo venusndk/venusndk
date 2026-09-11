@@ -72,38 +72,40 @@ I build **production-grade applications** across mobile, web, and backend with a
 
 ## <img src="https://api.iconify.design/tabler/stack-2.svg?color=%2338bdf8" width="28" height="28" alt="" /> TECH STACK
 
-<table align="center">
+<table align="center" width="100%">
 <tr>
-<th align="left" width="22%">Category</th>
-<th align="left">Stack</th>
-</tr>
-<tr>
-<td><img src="https://api.iconify.design/tabler/device-mobile.svg?color=%2338bdf8" width="18" height="18" alt="" /> <strong>Mobile</strong></td>
-<td><img src="https://skillicons.dev/icons?i=flutter,dart" alt="Flutter and Dart" /></td>
-</tr>
-<tr>
-<td><img src="https://api.iconify.design/tabler/browser.svg?color=%2338bdf8" width="18" height="18" alt="" /> <strong>Frontend</strong></td>
-<td><img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css,vite,js,ts" alt="React, Next.js, Tailwind CSS, HTML, CSS, Vite, JavaScript, TypeScript" /></td>
-</tr>
-<tr>
-<td><img src="https://api.iconify.design/tabler/server.svg?color=%2338bdf8" width="18" height="18" alt="" /> <strong>Backend & APIs</strong></td>
-<td><img src="https://skillicons.dev/icons?i=nodejs,express,firebase" alt="Node.js, Express, Firebase" />&nbsp;
+<td width="50%" valign="top">
+<img src="https://api.iconify.design/tabler/browser.svg?color=%2338bdf8" width="18" height="18" alt="" /> <strong>Frontend</strong><br/><br/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css,vite,js,ts" alt="React, Next.js, Tailwind CSS, HTML, CSS, Vite, JavaScript, TypeScript" />
+</td>
+<td width="50%" valign="top">
+<img src="https://api.iconify.design/tabler/server.svg?color=%2338bdf8" width="18" height="18" alt="" /> <strong>Backend & APIs</strong><br/><br/>
+<img src="https://skillicons.dev/icons?i=nodejs,express,firebase" alt="Node.js, Express, Firebase" />&nbsp;
 <img src="https://img.shields.io/badge/REST%20APIs-0ea5e9?style=flat-square&logo=fastapi&logoColor=white" alt="REST APIs" />&nbsp;
 <img src="https://img.shields.io/badge/Socket.IO-111827?style=flat-square&logo=socketdotio&logoColor=white" alt="Socket.IO" />&nbsp;
-<img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT" /></td>
+<img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT" />
+</td>
 </tr>
 <tr>
-<td><img src="https://api.iconify.design/tabler/database.svg?color=%2338bdf8" width="18" height="18" alt="" /> <strong>Databases</strong></td>
-<td><img src="https://skillicons.dev/icons?i=postgresql,sqlite,mongodb" alt="PostgreSQL, SQLite, MongoDB" /></td>
+<td width="50%" valign="top">
+<img src="https://api.iconify.design/tabler/database.svg?color=%2338bdf8" width="18" height="18" alt="" /> <strong>Databases</strong><br/><br/>
+<img src="https://skillicons.dev/icons?i=postgresql,sqlite,mongodb" alt="PostgreSQL, SQLite, MongoDB" />
+</td>
+<td width="50%" valign="top">
+<img src="https://api.iconify.design/tabler/device-mobile.svg?color=%2338bdf8" width="18" height="18" alt="" /> <strong>Mobile</strong><br/><br/>
+<img src="https://skillicons.dev/icons?i=flutter,dart" alt="Flutter and Dart" />
+</td>
 </tr>
 <tr>
-<td><img src="https://api.iconify.design/tabler/cloud-computing.svg?color=%2338bdf8" width="18" height="18" alt="" /> <strong>Cloud & DevOps</strong></td>
-<td><img src="https://skillicons.dev/icons?i=aws,gcp,docker,git,github,linux,vscode,postman" alt="AWS, GCP, Docker, Git, GitHub, Linux, VS Code, Postman" /></td>
-</tr>
-<tr>
-<td><img src="https://api.iconify.design/tabler/brain.svg?color=%2338bdf8" width="18" height="18" alt="" /> <strong>AI / ML</strong></td>
-<td><img src="https://img.shields.io/badge/AI%20Integration-1d4ed8?style=flat-square&logo=openai&logoColor=white" alt="AI Integration" />&nbsp;
-<img src="https://img.shields.io/badge/Machine%20Learning-0ea5e9?style=flat-square&logo=tensorflow&logoColor=white" alt="Machine Learning" /></td>
+<td width="50%" valign="top">
+<img src="https://api.iconify.design/tabler/brain.svg?color=%2338bdf8" width="18" height="18" alt="" /> <strong>AI / ML</strong><br/><br/>
+<img src="https://img.shields.io/badge/AI%20Integration-1d4ed8?style=flat-square&logo=openai&logoColor=white" alt="AI Integration" />&nbsp;
+<img src="https://img.shields.io/badge/Machine%20Learning-0ea5e9?style=flat-square&logo=tensorflow&logoColor=white" alt="Machine Learning" />
+</td>
+<td width="50%" valign="top">
+<img src="https://api.iconify.design/tabler/cloud-computing.svg?color=%2338bdf8" width="18" height="18" alt="" /> <strong>Cloud & DevOps</strong><br/><br/>
+<img src="https://skillicons.dev/icons?i=aws,gcp,docker,git,github,linux,vscode,postman" alt="AWS, GCP, Docker, Git, GitHub, Linux, VS Code, Postman" />
+</td>
 </tr>
 </table>
 
