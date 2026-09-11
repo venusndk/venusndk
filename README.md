@@ -32,44 +32,6 @@
 
 ---
 
-## <img src="https://api.iconify.design/tabler/user-code.svg?color=%2338bdf8" width="28" height="28" alt="" /> ABOUT ME
-
-I build **production-grade applications** across mobile, web, and backend with a relentless focus on **scalability**, **clean architecture**, and **exceptional user experience**.
-
----
-
-## <img src="https://api.iconify.design/tabler/apps.svg?color=%2338bdf8" width="28" height="28" alt="" /> FEATURED PROJECTS
-
-<table align="center">
-<tr>
-<th align="left" width="20%">Project</th>
-<th align="left">What it does</th>
-<th align="left" width="24%">Stack</th>
-</tr>
-<tr>
-<td><strong>DGL</strong><br/><a href="https://github.com/venusndk/DGL">repo</a></td>
-<td>Mobile-first driver–garage linking platform, backed by a Dockerized service layer and Firebase (auth, Firestore, storage).</td>
-<td><img src="https://skillicons.dev/icons?i=flutter,firebase,nodejs,docker" alt="Flutter, Firebase, Node.js, Docker" /></td>
-</tr>
-<tr>
-<td><strong>SORP</strong><br/><a href="https://github.com/venusndk/SORP">repo</a></td>
-<td>Full-stack MERN platform for staff operations & reporting, split into dedicated backend, web, and mobile clients.</td>
-<td><img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb" alt="React, Node.js, Express, MongoDB" /></td>
-</tr>
-<tr>
-<td><strong>CampChat</strong><br/><a href="https://github.com/venusndk/CampChat">repo</a></td>
-<td>Real-time chat platform with a Flutter mobile client, a Node.js/JS backend, and a Python ML service on PostgreSQL.</td>
-<td><img src="https://skillicons.dev/icons?i=flutter,nodejs,python,postgresql" alt="Flutter, Node.js, Python, PostgreSQL" /></td>
-</tr>
-<tr>
-<td><strong>Documents Converter</strong><br/><a href="https://github.com/venusndk/DOCUMENTS-CONVERTER">repo</a></td>
-<td>Production document-conversion utility with OCR, a Python API, database migrations, and Docker deployment.</td>
-<td><img src="https://skillicons.dev/icons?i=python,docker" alt="Python, Docker" /></td>
-</tr>
-</table>
-
----
-
 ## <img src="https://api.iconify.design/tabler/stack-2.svg?color=%2338bdf8" width="28" height="28" alt="" /> TECH STACK
 
 <table align="center" width="100%">
